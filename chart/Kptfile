@@ -1,0 +1,11 @@
+apiVersion: kpt.dev/v1alpha1
+kind: Kptfile
+metadata:
+  name: istio-operator
+upstream:
+  type: git
+  git:
+    commit: 9686754643d0939c1f4dd0ee20443c51183f3589
+    repo: https://github.com/istio/istio
+    directory: /manifests/charts/istio-operator
+    ref: 1.7.3
