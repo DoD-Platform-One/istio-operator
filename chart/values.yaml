@@ -1,4 +1,4 @@
-hub: gcr.io/istio-testing
+hub: registry1.dsop.io/ironbank/opensource/istio 
 tag: latest
 
 operatorNamespace: istio-operator
