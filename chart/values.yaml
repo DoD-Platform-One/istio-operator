@@ -1,5 +1,5 @@
-hub: gcr.io/istio-testing
-tag: latest
+hub: registry1.dsop.io/ironbank/opensource/istio 
+tag: 1.7.3
 
 operatorNamespace: istio-operator
 
