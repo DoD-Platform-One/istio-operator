@@ -1,5 +1,5 @@
-hub: registry1.dso.mil/ironbank/opensource/istio 
-tag: 1.7.3
+hub: registry1.dso.mil/ironbank/opensource/istio-1.8
+tag: 1.8.4
 
 operatorNamespace: istio-operator
 
@@ -26,3 +26,5 @@ operator:
 # Additions from upstream
 createNamespace: true
 imagePullSecrets: [ ]
+nodeSelector: {}
+affinity: {}
