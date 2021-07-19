@@ -25,6 +25,19 @@ operator:
 
 # Additions from upstream
 createNamespace: true
+
 imagePullSecrets: [ ]
+
 nodeSelector: {}
+
 affinity: {}
+
+# Future: Toggles deployment of serviceMonitor + networkPolicy
+# Only toggles networkPolicy right now
+monitoring:
+  enabled: false
+
+networkPolicies:
+  enabled: false
+  # See `kubectl cluster-info` and then resolve to IP
+  controlPlaneCidr: 0.0.0.0/0
