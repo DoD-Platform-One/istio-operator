@@ -6,6 +6,6 @@ upstream:
   type: git
   git:
     commit: 61313778e0b785e401c696f5e92f47af069f96d0
-    repo: git@github.com:istio/istio
+    repo: https://github.com/istio/istio
     directory: /manifests/charts/istio-operator
     ref: 1.10.3
