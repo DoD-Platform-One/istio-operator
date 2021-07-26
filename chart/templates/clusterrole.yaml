@@ -4,7 +4,7 @@ metadata:
   creationTimestamp: null
   name: istio-operator{{- if not (eq .Values.revision "") }}-{{ .Values.revision }}{{- end }}
 rules:
-# istio groups
+# istio groups 
 - apiGroups:
   - authentication.istio.io
   resources:
