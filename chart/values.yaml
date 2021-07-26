@@ -28,7 +28,7 @@ operator:
       memory: 128Mi
 
 # Additions from upstream
-# createNamespace: true
+createNamespace: true
 
 nodeSelector: {}
 
