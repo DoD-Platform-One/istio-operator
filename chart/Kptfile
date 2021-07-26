@@ -1,6 +1,6 @@
 apiVersion: kpt.dev/v1alpha1
 kind: Kptfile
-metadata:
+metadata: 
   name: istio-operator
 upstream:
   type: git
