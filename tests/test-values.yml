@@ -2,7 +2,7 @@ istio:
   enabled: false
 createNamespace: false
 imagePullSecrets:
-- name: private-registry
+- private-registry
 networkPolicies:
   enabled: true
   controlPlaneCidr: 172.16.0.0/12
