@@ -27,7 +27,7 @@ operator:
       cpu: 50m
       memory: 128Mi
 
-# Additions from upstream
+## Big Bang Additions below this line ##
 createNamespace: true
 
 nodeSelector: {}

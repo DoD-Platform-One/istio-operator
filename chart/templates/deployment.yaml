@@ -48,6 +48,7 @@ spec:
               value: {{.Values.waitForResourcesTimeout | quote}}
             - name: REVISION
               value: {{.Values.revision | quote}}
+      {{- /* Big Bang Additions below */ -}}
       {{- with .Values.affinity }}
       affinity:
         {{- toYaml . | nindent 8 }}
