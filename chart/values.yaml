@@ -24,8 +24,8 @@ operator:
       cpu: 200m
       memory: 256Mi
     requests:
-      cpu: 50m
-      memory: 128Mi
+      cpu: 200m
+      memory: 256Mi
 
 ## Big Bang Additions below this line ##
 createNamespace: true
