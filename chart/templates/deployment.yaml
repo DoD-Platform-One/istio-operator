@@ -16,7 +16,8 @@ spec:
       serviceAccountName: istio-operator{{- if not (eq .Values.revision "") }}-{{ .Values.revision }}{{- end }}
       containers:
         - name: istio-operator
-          image: {{.Values.hub}}/operator:{{.Values.tag}}
+          ## Added by Big Bang
+          image: {{.Values.hub}}/{{.Values.image | default "operator" }}:{{.Values.tag}}
           command:
           - operator
           - server
