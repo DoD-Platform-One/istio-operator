@@ -4,7 +4,7 @@
   "dependencyDashboard": "true",
   "dependencyDashboardAutoclose": "true",
   "dependencyDashboardHeader": "- [ ] Sync upstream helm chart version with updated dependencies.",
-  "dependencyDashboardTitle": "Upgrade Istio Package Dependencies",
+  "dependencyDashboardTitle": "Renovate: Upgrade Istio Package Dependencies",
   "draftPR": true,
   "labels": ["istio","Big Bang Core","Package Sustainment","kind::chore"],
   "packageRules": [
@@ -20,7 +20,7 @@
       "matchStrings": [
          "tag:\\s+(?<currentValue>.+)"
       ],
-      "depNameTemplate": "ironbank/opensource/istio-1.8/operator",
+      "depNameTemplate": "ironbank/opensource/istio/operator",
       "datasourceTemplate": "docker"
     }
   ]
