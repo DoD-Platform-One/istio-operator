@@ -1,5 +1,5 @@
 ---
-# Source: istio-operator/templates/namespace.yaml 
+# Source: istio-operator/templates/namespace.yaml
 apiVersion: v1
 kind: Namespace
 metadata:
@@ -181,7 +181,7 @@ spec:
       serviceAccountName: istio-operator
       containers:
         - name: istio-operator
-          image: registry1.dso.mil/ironbank/opensource/istio/operator:1.10.4
+          image: registry1.dso.mil/ironbank/opensource/istio/operator:1.11.2
           command:
           - operator
           - server
