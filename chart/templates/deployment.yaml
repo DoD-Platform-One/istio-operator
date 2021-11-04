@@ -18,6 +18,7 @@ spec:
         - name: istio-operator
           ## Added by Big Bang
           image: {{.Values.hub}}/{{.Values.image | default "operator" }}:{{.Values.tag}}
+          imagePullPolicy: {{ .Values.imagePullPolicy }}
           command:
           - operator
           - server
