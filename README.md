@@ -1,14 +1,60 @@
-# Istio Operator
+# istio-operator
 
-Istio operator, chart.
+![Version: 1.11.3-bb.1](https://img.shields.io/badge/Version-1.11.3--bb.1-informational?style=flat-square)
 
-Originaly sourced from [upstream](), and minimally modified.
+Helm chart for deploying Istio operator
 
-## Upstream Changes
+## Upstream References
 
-* optionally remove namespace deployment from chart with `.Values.createNamespace`
-* add `imagePullSecrets` with `.Values.imagePullSecrets[]`
+* <https://github.com/istio/istio/tree/master/operator>
 
-## Iron Bank
+## Learn More
+* [Application Overview](docs/overview.md)
+* [Other Documentation](docs/)
 
-You can `pull` the registry1 image(s) [here](https://registry1.dso.mil/harbor/projects/3/repositories/opensource%2Fistio-1.7%2Foperator-1.7) and view the container approval [here](https://ironbank.dso.mil/ironbank/repomap/opensource/istio-1.7).
+## Pre-Requisites
+
+* Kubernetes Cluster deployed
+* Kubernetes config installed in `~/.kube/config`
+* Helm installed
+
+Install Helm
+
+https://helm.sh/docs/intro/install/
+
+## Deployment
+
+* Clone down the repository
+* cd into directory
+```bash
+helm install istio-operator chart/
+```
+
+## Values
+
+| Key | Type | Default | Description |
+|-----|------|---------|-------------|
+| hub | string | `"registry1.dso.mil/ironbank/opensource/istio"` |  |
+| image | string | `"operator"` |  |
+| tag | string | `"1.11.3"` |  |
+| imagePullPolicy | string | `"IfNotPresent"` |  |
+| imagePullSecrets | list | `[]` |  |
+| operatorNamespace | string | `"istio-operator"` |  |
+| watchedNamespaces | string | `"istio-system"` |  |
+| waitForResourcesTimeout | string | `"300s"` |  |
+| enableCRDTemplates | bool | `false` |  |
+| revision | string | `""` |  |
+| operator.resources.limits.cpu | string | `"200m"` |  |
+| operator.resources.limits.memory | string | `"256Mi"` |  |
+| operator.resources.requests.cpu | string | `"200m"` |  |
+| operator.resources.requests.memory | string | `"256Mi"` |  |
+| createNamespace | bool | `true` |  |
+| nodeSelector | object | `{}` |  |
+| affinity | object | `{}` |  |
+| monitoring.enabled | bool | `false` |  |
+| networkPolicies.enabled | bool | `false` |  |
+| networkPolicies.controlPlaneCidr | string | `"0.0.0.0/0"` |  |
+
+## Contributing
+
+Please see the [contributing guide](./CONTRIBUTING.md) if you are interested in contributing.
