@@ -24,7 +24,11 @@ spec:
       containers:
         - name: istio-operator
           ## Added by Big Bang
+          {{- if .Values.enterprise }}
+          image: {{.Values.tidHub}}/{{.Values.image | default "operator" }}:{{.Values.tidTag}}
+          {{ else }}
           image: {{.Values.hub}}/{{.Values.image | default "operator" }}:{{.Values.tag}}
+          {{- end }}
           command:
           - operator
           - server
