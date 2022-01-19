@@ -2,6 +2,10 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.11.3-bb.3]
+### Added
+- Added OSCAL component for Istio Operator
+
 ## [1.11.3-bb.2]
 ### Changed
 -  Remove duplicate image pull policy in the deployment
