@@ -1,0 +1,40 @@
+component-definition:
+  uuid: F560D00D-F195-4650-BA39-8E74E1684967
+  metadata: 
+    title: Isito Operator Component
+    last-modified: '2021-10-19T12:00:00Z'
+    version: 20211019
+    oscal-version: 1.0.0
+    parties:
+      # Should be consistent across all of the packages, but where is ground truth?
+    - uuid: 72134592-08C2-4A77-ABAD-C880F109367A 
+      type: organization
+      name: Platform One
+      links:
+      - href: <https://p1.dso.mil>
+        rel: website
+  components:
+  - uuid: CB9B1F61-3CEC-4B32-A679-89011E596374
+    type: software
+    title: Istio Operator
+    description: |
+      Operator for managing Istio Service Mesh
+    purpose: Operator for Istio Service Mesh
+    responsible-roles:
+    - role-id: provider
+      party-uuid: 72134592-08C2-4A77-ABAD-C880F109367A # matches parties entry for p1
+    control-implementations:
+    - uuid: 5108E5FC-C45F-477B-A542-9C5611A92485
+      source: https://raw.githubusercontent.com/usnistgov/oscal-content/master/nist.gov/SP800-53/rev5/json/NIST_SP-800-53_rev5_catalog.json
+      description:
+        Controls implemented by authservice for inheritance by applications      
+  back-matter: 
+    resources:
+    - uuid: 54B57C51-595A-45FE-95DC-9E19A3C3E83F
+      title: Isito Operator
+      rlinks:
+      - href: https://github.com/istio/istio/tree/master/operator
+    - uuid: 0B931397-1A14-4785-9342-B5916AAF0751
+      title: Big Bang Istio Operator package
+      rlinks:
+        - href: https://repo1.dso.mil/platform-one/big-bang/apps/core/istio-operator

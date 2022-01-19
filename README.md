@@ -1,6 +1,6 @@
 # istio-operator
 
-![Version: 1.11.3-bb.2](https://img.shields.io/badge/Version-1.11.3--bb.2-informational?style=flat-square)
+![Version: 1.11.3-bb.3](https://img.shields.io/badge/Version-1.11.3--bb.3-informational?style=flat-square)
 
 Helm chart for deploying Istio operator
 
