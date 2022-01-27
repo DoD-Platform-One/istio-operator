@@ -1,6 +1,6 @@
 # istio-operator
 
-![Version: 1.11.3-bb.3](https://img.shields.io/badge/Version-1.11.3--bb.3-informational?style=flat-square)
+![Version: 1.11.5-bb.0](https://img.shields.io/badge/Version-1.11.5--bb.0-informational?style=flat-square)
 
 Helm chart for deploying Istio operator
 
@@ -36,7 +36,7 @@ helm install istio-operator chart/
 |-----|------|---------|-------------|
 | hub | string | `"registry1.dso.mil/ironbank/opensource/istio"` |  |
 | image | string | `"operator"` |  |
-| tag | string | `"1.11.3"` |  |
+| tag | string | `"1.11.5"` |  |
 | imagePullPolicy | string | `"IfNotPresent"` |  |
 | imagePullSecrets | list | `[]` |  |
 | operatorNamespace | string | `"istio-operator"` |  |
