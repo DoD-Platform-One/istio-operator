@@ -1,7 +1,7 @@
 hub: registry1.dso.mil/ironbank/opensource/istio
 ## Added by Big Bang
 image: operator
-tag: 1.11.3
+tag: 1.11.5
 imagePullPolicy: IfNotPresent
 
 # ImagePullSecrets for operator ServiceAccount, list of secrets in the same namespace

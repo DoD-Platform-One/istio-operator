@@ -1,0 +1,4 @@
+istio-controlplane:
+  git:
+    repo: "https://repo1.dso.mil/platform-one/big-bang/apps/core/istio-controlplane.git"
+  namespace: "istio-system"
