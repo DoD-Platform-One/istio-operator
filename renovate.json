@@ -21,6 +21,14 @@
       ],
       "depNameTemplate": "ironbank/opensource/istio/operator",
       "datasourceTemplate": "docker"
+    },
+    {
+      "fileMatch": ["^chart/Chart\\.yaml$"],
+      "matchStrings": [
+         "- Istio Operator:\\s+(?<currentValue>.+)"
+      ],
+      "depNameTemplate": "ironbank/opensource/istio/operator",
+      "datasourceTemplate": "docker"
     }
   ]
 }

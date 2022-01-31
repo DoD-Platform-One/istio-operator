@@ -1,6 +1,6 @@
 apiVersion: v1
 name: istio-operator
-version: 1.11.5-bb.0
+version: 1.11.5-bb.1
 tillerVersion: ">=2.7.2"
 description: Helm chart for deploying Istio operator
 keywords:
@@ -10,3 +10,6 @@ sources:
   - https://github.com/istio/istio/tree/master/operator
 engine: gotpl
 icon: https://istio.io/latest/favicons/android-192x192.png
+annotations:
+  bigbang.dev/applicationVersions: |
+    - Istio Operator: 1.11.5
