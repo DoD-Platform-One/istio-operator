@@ -5,7 +5,7 @@
   "dependencyDashboardHeader": "- [ ] Sync upstream helm chart version with updated dependencies.",
   "dependencyDashboardTitle": "Renovate: Upgrade Istio Operator Package Dependencies",
   "draftPR": true,
-  "labels": ["istio","Big Bang Core","Package Sustainment","kind::chore"],
+  "labels": ["istio","Big Bang Core","Package Sustainment","kind::maintenance"],
   "packageRules": [
     {
       "matchDatasources": ["docker"],
