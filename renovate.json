@@ -25,7 +25,8 @@
     {
       "fileMatch": ["^chart/Chart\\.yaml$"],
       "matchStrings": [
-         "- Istio Operator:\\s+(?<currentValue>.+)"
+         "- Istio Operator:\\s+(?<currentValue>.+)",
+         "appVersion:\\s+(?<currentValue>.+)"
       ],
       "depNameTemplate": "ironbank/opensource/istio/operator",
       "datasourceTemplate": "docker"
