@@ -15,7 +15,7 @@
         "commands": [
           "source $CI_PROJECT_DIR/functions.sh && helm-docs"
         ],
-        "fileFilters": ["README.md"],
+        "fileFilters": ["README.md"]
     }
   ],
   "regexManagers": [
