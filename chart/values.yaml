@@ -1,7 +1,7 @@
 hub: registry1.dso.mil/ironbank/opensource/istio
 ## Added by Big Bang
 image: operator
-tag: 1.13.2
+tag: 1.13.4
 
 # -- Tetrate Istio Distribution - Tetrate provides FIPs verified Istio and Envoy software and support,
 # validated through the FIPs Boring Crypto module.
@@ -36,12 +36,21 @@ operator:
       cpu: 200m
       memory: 256Mi
 
-## Big Bang Additions below this line ##
-createNamespace: true
-
+# Node labels for pod assignment
 nodeSelector: {}
 
+# Tolerations for pod assignment
+tolerations: []
+
+# Affinity for pod assignment
 affinity: {}
+
+# Additional labels and annotations to apply on the pod level for monitoring and logging configuration.
+podLabels: {}
+podAnnotations: {}
+
+## Big Bang Additions below this line ##
+createNamespace: true
 
 # Future: Toggles deployment of serviceMonitor + networkPolicy
 # Only toggles networkPolicy right now

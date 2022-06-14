@@ -1,7 +1,7 @@
 apiVersion: v1
 name: istio-operator
-version: 1.13.2-bb.1
-appVersion: 1.13.2
+version: 1.13.4-bb.0
+appVersion: 1.13.4
 tillerVersion: ">=2.7.2"
 description: Helm chart for deploying Istio operator
 keywords:
@@ -13,5 +13,5 @@ engine: gotpl
 icon: https://istio.io/latest/favicons/android-192x192.png
 annotations:
   bigbang.dev/applicationVersions: |
-    - Istio Operator: 1.13.2
+    - Istio Operator: 1.13.4
     - Tetrate Istio Distro Operator: 1.12.4
