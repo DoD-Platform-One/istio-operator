@@ -173,7 +173,7 @@ spec:
       serviceAccountName: istio-operator
       containers:
         - name: istio-operator
-          image: registry1.dso.mil/ironbank/opensource/istio/operator:1.11.5
+          image: registry1.dso.mil/ironbank/opensource/istio/operator:1.13.4
           command:
           - operator
           - server
