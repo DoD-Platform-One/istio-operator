@@ -2,6 +2,10 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ---
+## [1.13.5-bb.0]
+### Changed
+- Updated repo1 image to `1.13.5`
+
 ## [1.13.4-bb.0]
 ### Changed
 - Updated repo1 image to `1.13.4`
