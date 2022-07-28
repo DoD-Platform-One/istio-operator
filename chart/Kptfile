@@ -5,7 +5,7 @@ metadata:
 upstream:
   type: git
   git:
-    commit: c6abaf5e5fd6488d4b654ac7b6a8d4cb44a96316
+    commit: d19a287d37ffde0ba1b4bc0c41da77d23a33d113
     repo: https://github.com/istio/istio
     directory: /manifests/charts/istio-operator
-    ref: 1.13.5
+    ref: 1.14.2
