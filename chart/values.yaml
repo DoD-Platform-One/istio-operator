@@ -1,7 +1,7 @@
 hub: registry1.dso.mil/ironbank/opensource/istio
 ## Added by Big Bang
 image: operator
-tag: 1.13.5
+tag: 1.14.2
 
 # -- Tetrate Istio Distribution - Tetrate provides FIPs verified Istio and Envoy software and support,
 # validated through the FIPs Boring Crypto module.
@@ -25,6 +25,9 @@ enableCRDTemplates: false
 
 # revision for the operator resources
 revision: ""
+
+# The number of old ReplicaSets to retain in operator deployment
+deploymentHistory: 10
 
 # Operator resource defaults
 operator:
