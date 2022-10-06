@@ -2,6 +2,11 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ---
+## [1.15.0-bb.1]
+### Changed
+- Updated TID tag to 1.14.4
+- Added TID tags to renovate config
+
 ## [1.15.0-bb.0]
 ### Changed
 - Updated repo1 image to `1.15.0`
