@@ -31,6 +31,29 @@
       ],
       "depNameTemplate": "ironbank/opensource/istio/operator",
       "datasourceTemplate": "docker"
+    },
+    {
+      "fileMatch": ["^chart/values\\.yaml$"],
+      "matchStrings": [
+        "tidTag:\\s+(?<currentValue>.+)"
+      ],
+      "depNameTemplate": "ironbank/tetrate/istio/operator",
+      "datasourceTemplate": "docker"
+    },
+    {
+      "fileMatch": ["^chart/Chart\\.yaml$"],
+      "matchStrings": [
+        "- Tetrate Istio Distro Operator:\\s+(?<currentValue>.+)"
+      ],
+      "depNameTemplate": "ironbank/tetrate/istio/operator",
+      "datasourceTemplate": "docker"
+    },
+    {
+      "fileMatch": ["^tests/images\\.txt$"],
+      "matchStrings": [
+        "s*(?<depName>.+):(?<currentValue>.+)"
+      ],
+      "datasourceTemplate": "docker"
     }
   ]
 }
