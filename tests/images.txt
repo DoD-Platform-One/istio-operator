@@ -1,1 +1,1 @@
-registry1.dso.mil/ironbank/tetrate/istio/operator:1.14.4-tetratefips-v0
+registry1.dso.mil/ironbank/tetrate/istio/operator:1.15.1-tetratefips-v1
