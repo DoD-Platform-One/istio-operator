@@ -1,7 +1,7 @@
 hub: registry1.dso.mil/ironbank/opensource/istio
 ## Added by Big Bang
 image: operator
-tag: 1.16.2
+tag: 1.17.1
 
 # -- Tetrate Istio Distribution - Tetrate provides FIPs verified Istio and Envoy software and support,
 # validated through the FIPs Boring Crypto module.
@@ -15,6 +15,10 @@ imagePullPolicy: IfNotPresent
 # ImagePullSecrets for operator ServiceAccount, list of secrets in the same namespace
 # used to pull operator image. Must be set for any cluster configured with private docker registry.
 imagePullSecrets: []
+
+# Specify image pull policy if default behavior isn't desired.
+# Default behavior: latest images will be Always else IfNotPresent.
+imagePullPolicy: ""
 
 # Used to replace istioNamespace to support operator watch multiple namespaces.
 watchedNamespaces: istio-system
@@ -31,6 +35,9 @@ deploymentHistory: 10
 
 # Operator resource defaults
 operator:
+  monitoring:
+    host: 0.0.0.0
+    port: 8383
   resources:
     limits:
       cpu: 200m
