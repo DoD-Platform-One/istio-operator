@@ -8,4 +8,4 @@ upstream:
     commit: b39cf40807721c60f7b29e3106e37faa5e5dbac7
     repo: https://github.com/istio/istio
     directory: /manifests/charts/istio-operator
-    ref: 1.18.1
+    ref: 1.18.2
