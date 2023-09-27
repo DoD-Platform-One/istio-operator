@@ -16,7 +16,7 @@ imagePullSecrets: []
 
 # Specify image pull policy if default behavior isn't desired.
 # Default behavior: latest images will be Always else IfNotPresent.
-imagePullPolicy: IfNotPresent
+imagePullPolicy: ""
 
 # Used to replace istioNamespace to support operator watch multiple namespaces.
 watchedNamespaces: istio-system
@@ -43,6 +43,8 @@ operator:
     requests:
       cpu: 200m
       memory: 256Mi
+  # Set to `type: RuntimeDefault` to use the default profile if available.
+  seccompProfile: {}
 
 # Node labels for pod assignment
 nodeSelector: {}

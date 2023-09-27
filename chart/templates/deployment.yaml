@@ -26,7 +26,7 @@ spec:
       serviceAccountName: istio-operator{{- if not (eq .Values.revision "") }}-{{ .Values.revision }}{{- end }}
       containers:
         - name: istio-operator
-          ## Added by Big Bang
+                    ## Added by Big Bang
           {{- if .Values.enterprise }}
           image: {{.Values.tidHub}}/{{.Values.image | default "operator" }}:{{.Values.tidTag}}
           {{ else }}
@@ -47,11 +47,13 @@ spec:
             runAsGroup: 1337
             runAsUser: 1337
             runAsNonRoot: true
-          imagePullPolicy: {{ .Values.imagePullPolicy }}
-          {{- if .Values.operator.seccompProfile }}
+{{- if .Values.operator.seccompProfile }}
             seccompProfile:
-            {{ toYaml .Values.operator.seccompProfile | trim | indent 14 }}
-          {{- end }}
+{{ toYaml .Values.operator.seccompProfile | trim | indent 14 }}
+{{- end }}
+{{- if .Values.imagePullPolicy }}
+          imagePullPolicy: {{ .Values.imagePullPolicy }}
+{{- end }}
           resources:
 {{ toYaml .Values.operator.resources | trim | indent 12 }}
           env:
