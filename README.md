@@ -1,6 +1,6 @@
 # istio-operator
 
-![Version: 1.19.0-bb.0](https://img.shields.io/badge/Version-1.19.0--bb.0-informational?style=flat-square) ![AppVersion: 1.19.0](https://img.shields.io/badge/AppVersion-1.19.0-informational?style=flat-square)
+![Version: 1.19.0-bb.1](https://img.shields.io/badge/Version-1.19.0--bb.1-informational?style=flat-square) ![AppVersion: 1.19.0](https://img.shields.io/badge/AppVersion-1.19.0-informational?style=flat-square)
 
 Helm chart for deploying Istio operator
 
@@ -41,7 +41,7 @@ helm install istio-operator chart/
 | tidHub | string | `"registry1.dso.mil/ironbank/tetrate/istio"` |  |
 | tidTag | string | `"1.18.2-tetratefips-v0"` |  |
 | imagePullSecrets | list | `[]` |  |
-| imagePullPolicy | string | `"IfNotPresent"` |  |
+| imagePullPolicy | string | `""` |  |
 | watchedNamespaces | string | `"istio-system"` |  |
 | waitForResourcesTimeout | string | `"300s"` |  |
 | enableCRDTemplates | bool | `false` |  |
@@ -53,6 +53,7 @@ helm install istio-operator chart/
 | operator.resources.limits.memory | string | `"256Mi"` |  |
 | operator.resources.requests.cpu | string | `"200m"` |  |
 | operator.resources.requests.memory | string | `"256Mi"` |  |
+| operator.seccompProfile | object | `{}` |  |
 | nodeSelector | object | `{}` |  |
 | tolerations | list | `[]` |  |
 | affinity | object | `{}` |  |
