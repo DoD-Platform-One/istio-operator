@@ -1,0 +1,32 @@
+{{- if .Capabilities.APIVersions.Has "security.openshift.io/v1/SecurityContextConstraints" }}
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: net-attach-def-istio-openshift
+rules:
+  - verbs:
+      - create
+      - delete
+      - get
+      - list
+      - patch
+      - watch
+    apiGroups:
+      - k8s.cni.cncf.io
+    resources:
+      - network-attachment-definitions
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: net-attach-def-istio-operator
+subjects:
+  - kind: ServiceAccount
+    name: istio-operator
+    namespace: '{{ .Release.Namespace }}'
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: net-attach-def-istio-openshift
+{{- end }}
+  
