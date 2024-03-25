@@ -11,4 +11,7 @@
 Generally the operator should be tested alongside the new controlplane version. Follow the steps in the controlplane documentation for testing.
 
 # Modifications made to upstream chart
-We do not currently have any modifications documented. A kpt update performed as described above should generally preserve our changes, although we will want to work towards adding this documentation for internal and external developers to reference.
+## /chart/templates/deployment.yaml
+Renovate may remove the two keys listed here. Make sure that they are present and that their values are set to 1337:
+- spec.template.spec.containers.securityContext.runAsGroup
+- spec.template.spec.containers.securityContext.runAsUser
