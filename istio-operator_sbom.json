@@ -1,7 +1,7 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:feb48144-ce12-4a9d-93f2-2625faf67e6c",
+  "serialNumber": "urn:uuid:63008625-de6d-45ef-a5dc-94935895fb57",
   "version": 1,
   "metadata": {
     "tools": null,
@@ -21,7 +21,7 @@
       "components": [
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/istio/operator@1.20.4:pkg:deb/debian/base-files@12.4\u002Bdeb12u5?arch=amd64\u0026distro=debian-12\u0026package-id=854ccee33785ad46",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/istio/operator@1.20.4:pkg:deb/debian/base-files@12.4%2Bdeb12u5?arch=amd64\u0026distro=debian-12\u0026package-id=854ccee33785ad46",
           "publisher": "Santiago Vila \u003Csanvila@debian.org\u003E",
           "name": "base-files",
           "version": "12.4\u002Bdeb12u5",
@@ -33,7 +33,7 @@
             }
           ],
           "cpe": "cpe:2.3:a:base-files:base-files:12.4\\\u002Bdeb12u5:*:*:*:*:*:*:*",
-          "purl": "pkg:deb/debian/base-files@12.4\u002Bdeb12u5?arch=amd64\u0026distro=debian-12",
+          "purl": "pkg:deb/debian/base-files@12.4%2Bdeb12u5?arch=amd64\u0026distro=debian-12",
           "properties": [
             {
               "name": "syft:package:foundBy",
@@ -1089,11 +1089,11 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/istio/operator@1.20.4:pkg:golang/github.com/docker/cli@v24.0.5\u002Bincompatible?package-id=63e5202aed80fe79",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/istio/operator@1.20.4:pkg:golang/github.com/docker/cli@v24.0.5%2Bincompatible?package-id=63e5202aed80fe79",
           "name": "github.com/docker/cli",
           "version": "v24.0.5\u002Bincompatible",
           "cpe": "cpe:2.3:a:docker:cli:v24.0.5\\\u002Bincompatible:*:*:*:*:*:*:*",
-          "purl": "pkg:golang/github.com/docker/cli@v24.0.5\u002Bincompatible",
+          "purl": "pkg:golang/github.com/docker/cli@v24.0.5%2Bincompatible",
           "properties": [
             {
               "name": "syft:package:foundBy",
@@ -1139,11 +1139,11 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/istio/operator@1.20.4:pkg:golang/github.com/docker/distribution@v2.8.2\u002Bincompatible?package-id=eba33203eab3ea2f",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/istio/operator@1.20.4:pkg:golang/github.com/docker/distribution@v2.8.2%2Bincompatible?package-id=eba33203eab3ea2f",
           "name": "github.com/docker/distribution",
           "version": "v2.8.2\u002Bincompatible",
           "cpe": "cpe:2.3:a:docker:distribution:v2.8.2\\\u002Bincompatible:*:*:*:*:*:*:*",
-          "purl": "pkg:golang/github.com/docker/distribution@v2.8.2\u002Bincompatible",
+          "purl": "pkg:golang/github.com/docker/distribution@v2.8.2%2Bincompatible",
           "properties": [
             {
               "name": "syft:package:foundBy",
@@ -1189,11 +1189,11 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/istio/operator@1.20.4:pkg:golang/github.com/docker/docker@v24.0.7\u002Bincompatible?package-id=f130c61aef222ca9",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/istio/operator@1.20.4:pkg:golang/github.com/docker/docker@v24.0.7%2Bincompatible?package-id=f130c61aef222ca9",
           "name": "github.com/docker/docker",
           "version": "v24.0.7\u002Bincompatible",
           "cpe": "cpe:2.3:a:docker:docker:v24.0.7\\\u002Bincompatible:*:*:*:*:*:*:*",
-          "purl": "pkg:golang/github.com/docker/docker@v24.0.7\u002Bincompatible",
+          "purl": "pkg:golang/github.com/docker/docker@v24.0.7%2Bincompatible",
           "properties": [
             {
               "name": "syft:package:foundBy",
@@ -1455,11 +1455,11 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/istio/operator@1.20.4:pkg:golang/github.com/evanphx/json-patch@v5.7.0\u002Bincompatible?package-id=e63194c873c7a884",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/istio/operator@1.20.4:pkg:golang/github.com/evanphx/json-patch@v5.7.0%2Bincompatible?package-id=e63194c873c7a884",
           "name": "github.com/evanphx/json-patch",
           "version": "v5.7.0\u002Bincompatible",
           "cpe": "cpe:2.3:a:evanphx:json-patch:v5.7.0\\\u002Bincompatible:*:*:*:*:*:*:*",
-          "purl": "pkg:golang/github.com/evanphx/json-patch@v5.7.0\u002Bincompatible",
+          "purl": "pkg:golang/github.com/evanphx/json-patch@v5.7.0%2Bincompatible",
           "properties": [
             {
               "name": "syft:package:foundBy",
@@ -5149,11 +5149,11 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/istio/operator@1.20.4:pkg:golang/github.com/peterbourgon/diskv@v2.0.1\u002Bincompatible?package-id=c2e10700f354f612",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/istio/operator@1.20.4:pkg:golang/github.com/peterbourgon/diskv@v2.0.1%2Bincompatible?package-id=c2e10700f354f612",
           "name": "github.com/peterbourgon/diskv",
           "version": "v2.0.1\u002Bincompatible",
           "cpe": "cpe:2.3:a:peterbourgon:diskv:v2.0.1\\\u002Bincompatible:*:*:*:*:*:*:*",
-          "purl": "pkg:golang/github.com/peterbourgon/diskv@v2.0.1\u002Bincompatible",
+          "purl": "pkg:golang/github.com/peterbourgon/diskv@v2.0.1%2Bincompatible",
           "properties": [
             {
               "name": "syft:package:foundBy",
@@ -8742,7 +8742,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/istio/operator@1.20.4:pkg:deb/debian/libc6@2.36-9\u002Bdeb12u4?arch=amd64\u0026upstream=glibc\u0026distro=debian-12\u0026package-id=9bbee5a9c682c997",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/istio/operator@1.20.4:pkg:deb/debian/libc6@2.36-9%2Bdeb12u4?arch=amd64\u0026upstream=glibc\u0026distro=debian-12\u0026package-id=9bbee5a9c682c997",
           "publisher": "GNU Libc Maintainers \u003Cdebian-glibc@lists.debian.org\u003E",
           "name": "libc6",
           "version": "2.36-9\u002Bdeb12u4",
@@ -8759,7 +8759,7 @@
             }
           ],
           "cpe": "cpe:2.3:a:libc6:libc6:2.36-9\\\u002Bdeb12u4:*:*:*:*:*:*:*",
-          "purl": "pkg:deb/debian/libc6@2.36-9\u002Bdeb12u4?arch=amd64\u0026upstream=glibc\u0026distro=debian-12",
+          "purl": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u4?arch=amd64\u0026upstream=glibc\u0026distro=debian-12",
           "properties": [
             {
               "name": "syft:package:foundBy",
@@ -9396,7 +9396,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/istio/operator@1.20.4:pkg:deb/debian/tzdata@2024a-0\u002Bdeb12u1?arch=all\u0026distro=debian-12\u0026package-id=0554439f25547568",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/istio/operator@1.20.4:pkg:deb/debian/tzdata@2024a-0%2Bdeb12u1?arch=all\u0026distro=debian-12\u0026package-id=0554439f25547568",
           "publisher": "GNU Libc Maintainers \u003Cdebian-glibc@lists.debian.org\u003E",
           "name": "tzdata",
           "version": "2024a-0\u002Bdeb12u1",
@@ -9408,7 +9408,7 @@
             }
           ],
           "cpe": "cpe:2.3:a:tzdata:tzdata:2024a-0\\\u002Bdeb12u1:*:*:*:*:*:*:*",
-          "purl": "pkg:deb/debian/tzdata@2024a-0\u002Bdeb12u1?arch=all\u0026distro=debian-12",
+          "purl": "pkg:deb/debian/tzdata@2024a-0%2Bdeb12u1?arch=all\u0026distro=debian-12",
           "properties": [
             {
               "name": "syft:package:foundBy",
@@ -9505,7 +9505,7 @@
       "components": [
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/tetrate/istio/operator@1.20.4-tetratefips-v0:pkg:deb/debian/base-files@12.4\u002Bdeb12u5?arch=amd64\u0026distro=debian-12\u0026package-id=854ccee33785ad46",
+          "bom-ref": "registry1.dso.mil/ironbank/tetrate/istio/operator@1.20.4-tetratefips-v0:pkg:deb/debian/base-files@12.4%2Bdeb12u5?arch=amd64\u0026distro=debian-12\u0026package-id=854ccee33785ad46",
           "publisher": "Santiago Vila \u003Csanvila@debian.org\u003E",
           "name": "base-files",
           "version": "12.4\u002Bdeb12u5",
@@ -9517,7 +9517,7 @@
             }
           ],
           "cpe": "cpe:2.3:a:base-files:base-files:12.4\\\u002Bdeb12u5:*:*:*:*:*:*:*",
-          "purl": "pkg:deb/debian/base-files@12.4\u002Bdeb12u5?arch=amd64\u0026distro=debian-12",
+          "purl": "pkg:deb/debian/base-files@12.4%2Bdeb12u5?arch=amd64\u0026distro=debian-12",
           "properties": [
             {
               "name": "syft:package:foundBy",
@@ -10573,11 +10573,11 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/tetrate/istio/operator@1.20.4-tetratefips-v0:pkg:golang/github.com/docker/cli@v24.0.5\u002Bincompatible?package-id=4d0952ffde4a08b0",
+          "bom-ref": "registry1.dso.mil/ironbank/tetrate/istio/operator@1.20.4-tetratefips-v0:pkg:golang/github.com/docker/cli@v24.0.5%2Bincompatible?package-id=4d0952ffde4a08b0",
           "name": "github.com/docker/cli",
           "version": "v24.0.5\u002Bincompatible",
           "cpe": "cpe:2.3:a:docker:cli:v24.0.5\\\u002Bincompatible:*:*:*:*:*:*:*",
-          "purl": "pkg:golang/github.com/docker/cli@v24.0.5\u002Bincompatible",
+          "purl": "pkg:golang/github.com/docker/cli@v24.0.5%2Bincompatible",
           "properties": [
             {
               "name": "syft:package:foundBy",
@@ -10623,11 +10623,11 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/tetrate/istio/operator@1.20.4-tetratefips-v0:pkg:golang/github.com/docker/distribution@v2.8.2\u002Bincompatible?package-id=4062f7e2272b7b4e",
+          "bom-ref": "registry1.dso.mil/ironbank/tetrate/istio/operator@1.20.4-tetratefips-v0:pkg:golang/github.com/docker/distribution@v2.8.2%2Bincompatible?package-id=4062f7e2272b7b4e",
           "name": "github.com/docker/distribution",
           "version": "v2.8.2\u002Bincompatible",
           "cpe": "cpe:2.3:a:docker:distribution:v2.8.2\\\u002Bincompatible:*:*:*:*:*:*:*",
-          "purl": "pkg:golang/github.com/docker/distribution@v2.8.2\u002Bincompatible",
+          "purl": "pkg:golang/github.com/docker/distribution@v2.8.2%2Bincompatible",
           "properties": [
             {
               "name": "syft:package:foundBy",
@@ -10673,11 +10673,11 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/tetrate/istio/operator@1.20.4-tetratefips-v0:pkg:golang/github.com/docker/docker@v24.0.7\u002Bincompatible?package-id=8c7325527d2e1d03",
+          "bom-ref": "registry1.dso.mil/ironbank/tetrate/istio/operator@1.20.4-tetratefips-v0:pkg:golang/github.com/docker/docker@v24.0.7%2Bincompatible?package-id=8c7325527d2e1d03",
           "name": "github.com/docker/docker",
           "version": "v24.0.7\u002Bincompatible",
           "cpe": "cpe:2.3:a:docker:docker:v24.0.7\\\u002Bincompatible:*:*:*:*:*:*:*",
-          "purl": "pkg:golang/github.com/docker/docker@v24.0.7\u002Bincompatible",
+          "purl": "pkg:golang/github.com/docker/docker@v24.0.7%2Bincompatible",
           "properties": [
             {
               "name": "syft:package:foundBy",
@@ -10939,11 +10939,11 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/tetrate/istio/operator@1.20.4-tetratefips-v0:pkg:golang/github.com/evanphx/json-patch@v5.7.0\u002Bincompatible?package-id=96c5044e9d3df560",
+          "bom-ref": "registry1.dso.mil/ironbank/tetrate/istio/operator@1.20.4-tetratefips-v0:pkg:golang/github.com/evanphx/json-patch@v5.7.0%2Bincompatible?package-id=96c5044e9d3df560",
           "name": "github.com/evanphx/json-patch",
           "version": "v5.7.0\u002Bincompatible",
           "cpe": "cpe:2.3:a:evanphx:json-patch:v5.7.0\\\u002Bincompatible:*:*:*:*:*:*:*",
-          "purl": "pkg:golang/github.com/evanphx/json-patch@v5.7.0\u002Bincompatible",
+          "purl": "pkg:golang/github.com/evanphx/json-patch@v5.7.0%2Bincompatible",
           "properties": [
             {
               "name": "syft:package:foundBy",
@@ -14633,11 +14633,11 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/tetrate/istio/operator@1.20.4-tetratefips-v0:pkg:golang/github.com/peterbourgon/diskv@v2.0.1\u002Bincompatible?package-id=6fbc8c051a64cca8",
+          "bom-ref": "registry1.dso.mil/ironbank/tetrate/istio/operator@1.20.4-tetratefips-v0:pkg:golang/github.com/peterbourgon/diskv@v2.0.1%2Bincompatible?package-id=6fbc8c051a64cca8",
           "name": "github.com/peterbourgon/diskv",
           "version": "v2.0.1\u002Bincompatible",
           "cpe": "cpe:2.3:a:peterbourgon:diskv:v2.0.1\\\u002Bincompatible:*:*:*:*:*:*:*",
-          "purl": "pkg:golang/github.com/peterbourgon/diskv@v2.0.1\u002Bincompatible",
+          "purl": "pkg:golang/github.com/peterbourgon/diskv@v2.0.1%2Bincompatible",
           "properties": [
             {
               "name": "syft:package:foundBy",
@@ -18226,7 +18226,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/tetrate/istio/operator@1.20.4-tetratefips-v0:pkg:deb/debian/libc6@2.36-9\u002Bdeb12u4?arch=amd64\u0026upstream=glibc\u0026distro=debian-12\u0026package-id=9bbee5a9c682c997",
+          "bom-ref": "registry1.dso.mil/ironbank/tetrate/istio/operator@1.20.4-tetratefips-v0:pkg:deb/debian/libc6@2.36-9%2Bdeb12u4?arch=amd64\u0026upstream=glibc\u0026distro=debian-12\u0026package-id=9bbee5a9c682c997",
           "publisher": "GNU Libc Maintainers \u003Cdebian-glibc@lists.debian.org\u003E",
           "name": "libc6",
           "version": "2.36-9\u002Bdeb12u4",
@@ -18243,7 +18243,7 @@
             }
           ],
           "cpe": "cpe:2.3:a:libc6:libc6:2.36-9\\\u002Bdeb12u4:*:*:*:*:*:*:*",
-          "purl": "pkg:deb/debian/libc6@2.36-9\u002Bdeb12u4?arch=amd64\u0026upstream=glibc\u0026distro=debian-12",
+          "purl": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u4?arch=amd64\u0026upstream=glibc\u0026distro=debian-12",
           "properties": [
             {
               "name": "syft:package:foundBy",
@@ -18880,7 +18880,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/tetrate/istio/operator@1.20.4-tetratefips-v0:pkg:deb/debian/tzdata@2024a-0\u002Bdeb12u1?arch=all\u0026distro=debian-12\u0026package-id=0554439f25547568",
+          "bom-ref": "registry1.dso.mil/ironbank/tetrate/istio/operator@1.20.4-tetratefips-v0:pkg:deb/debian/tzdata@2024a-0%2Bdeb12u1?arch=all\u0026distro=debian-12\u0026package-id=0554439f25547568",
           "publisher": "GNU Libc Maintainers \u003Cdebian-glibc@lists.debian.org\u003E",
           "name": "tzdata",
           "version": "2024a-0\u002Bdeb12u1",
@@ -18892,7 +18892,7 @@
             }
           ],
           "cpe": "cpe:2.3:a:tzdata:tzdata:2024a-0\\\u002Bdeb12u1:*:*:*:*:*:*:*",
-          "purl": "pkg:deb/debian/tzdata@2024a-0\u002Bdeb12u1?arch=all\u0026distro=debian-12",
+          "purl": "pkg:deb/debian/tzdata@2024a-0%2Bdeb12u1?arch=all\u0026distro=debian-12",
           "properties": [
             {
               "name": "syft:package:foundBy",
