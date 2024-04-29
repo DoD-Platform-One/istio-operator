@@ -1,7 +1,7 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:63008625-de6d-45ef-a5dc-94935895fb57",
+  "serialNumber": "urn:uuid:5012aeb6-e6b5-4a0b-be70-e3248c70628c",
   "version": 1,
   "metadata": {
     "tools": null,
@@ -252,7 +252,7 @@
           "bom-ref": "registry1.dso.mil/ironbank/opensource/istio/operator@1.20.4:pkg:golang/github.com/masterminds/goutils@v1.1.1?package-id=ddde68bfacee8aa5",
           "name": "github.com/Masterminds/goutils",
           "version": "v1.1.1",
-          "cpe": "cpe:2.3:a:Masterminds:goutils:v1.1.1:*:*:*:*:*:*:*",
+          "cpe": "cpe:2.3:a:goutils_project:goutils:v1.1.1:*:*:*:*:go:*:*",
           "purl": "pkg:golang/github.com/Masterminds/goutils@v1.1.1",
           "properties": [
             {
@@ -7167,7 +7167,7 @@
           "bom-ref": "registry1.dso.mil/ironbank/opensource/istio/operator@1.20.4:pkg:golang/golang.org/x/net@v0.17.0?package-id=c0f9c1722eb93a25",
           "name": "golang.org/x/net",
           "version": "v0.17.0",
-          "cpe": "cpe:2.3:a:golang:x\\/net:v0.17.0:*:*:*:*:*:*:*",
+          "cpe": "cpe:2.3:a:golang:networking:v0.17.0:*:*:*:*:go:*:*",
           "purl": "pkg:golang/golang.org/x/net@v0.17.0",
           "properties": [
             {
@@ -7417,7 +7417,7 @@
           "bom-ref": "registry1.dso.mil/ironbank/opensource/istio/operator@1.20.4:pkg:golang/golang.org/x/text@v0.14.0?package-id=35d4addb4617d31e",
           "name": "golang.org/x/text",
           "version": "v0.14.0",
-          "cpe": "cpe:2.3:a:golang:x\\/text:v0.14.0:*:*:*:*:*:*:*",
+          "cpe": "cpe:2.3:a:golang:text:v0.14.0:*:*:*:*:*:*:*",
           "purl": "pkg:golang/golang.org/x/text@v0.14.0",
           "properties": [
             {
@@ -7963,6 +7963,7 @@
           "bom-ref": "registry1.dso.mil/ironbank/opensource/istio/operator@1.20.4:pkg:golang/gopkg.in/yaml.v3@v3.0.1?package-id=3391546b9a4a728b",
           "name": "gopkg.in/yaml.v3",
           "version": "v3.0.1",
+          "cpe": "cpe:2.3:a:yaml_project:yaml:v3.0.1:*:*:*:*:go:*:*",
           "purl": "pkg:golang/gopkg.in/yaml.v3@v3.0.1",
           "properties": [
             {
@@ -9736,7 +9737,7 @@
           "bom-ref": "registry1.dso.mil/ironbank/tetrate/istio/operator@1.20.4-tetratefips-v0:pkg:golang/github.com/masterminds/goutils@v1.1.1?package-id=52892529b0c8ddab",
           "name": "github.com/Masterminds/goutils",
           "version": "v1.1.1",
-          "cpe": "cpe:2.3:a:Masterminds:goutils:v1.1.1:*:*:*:*:*:*:*",
+          "cpe": "cpe:2.3:a:goutils_project:goutils:v1.1.1:*:*:*:*:go:*:*",
           "purl": "pkg:golang/github.com/Masterminds/goutils@v1.1.1",
           "properties": [
             {
@@ -16651,7 +16652,7 @@
           "bom-ref": "registry1.dso.mil/ironbank/tetrate/istio/operator@1.20.4-tetratefips-v0:pkg:golang/golang.org/x/net@v0.17.0?package-id=462c86ab58c76a77",
           "name": "golang.org/x/net",
           "version": "v0.17.0",
-          "cpe": "cpe:2.3:a:golang:x\\/net:v0.17.0:*:*:*:*:*:*:*",
+          "cpe": "cpe:2.3:a:golang:networking:v0.17.0:*:*:*:*:go:*:*",
           "purl": "pkg:golang/golang.org/x/net@v0.17.0",
           "properties": [
             {
@@ -16901,7 +16902,7 @@
           "bom-ref": "registry1.dso.mil/ironbank/tetrate/istio/operator@1.20.4-tetratefips-v0:pkg:golang/golang.org/x/text@v0.14.0?package-id=6a2c2e02e1987c8f",
           "name": "golang.org/x/text",
           "version": "v0.14.0",
-          "cpe": "cpe:2.3:a:golang:x\\/text:v0.14.0:*:*:*:*:*:*:*",
+          "cpe": "cpe:2.3:a:golang:text:v0.14.0:*:*:*:*:*:*:*",
           "purl": "pkg:golang/golang.org/x/text@v0.14.0",
           "properties": [
             {
@@ -17447,6 +17448,7 @@
           "bom-ref": "registry1.dso.mil/ironbank/tetrate/istio/operator@1.20.4-tetratefips-v0:pkg:golang/gopkg.in/yaml.v3@v3.0.1?package-id=5d0949db658bb252",
           "name": "gopkg.in/yaml.v3",
           "version": "v3.0.1",
+          "cpe": "cpe:2.3:a:yaml_project:yaml:v3.0.1:*:*:*:*:go:*:*",
           "purl": "pkg:golang/gopkg.in/yaml.v3@v3.0.1",
           "properties": [
             {
