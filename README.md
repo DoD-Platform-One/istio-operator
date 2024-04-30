@@ -1,6 +1,6 @@
 # istio-operator
 
-![Version: 1.20.4-bb.0](https://img.shields.io/badge/Version-1.20.4--bb.0-informational?style=flat-square) ![AppVersion: 1.20.4](https://img.shields.io/badge/AppVersion-1.20.4-informational?style=flat-square)
+![Version: 1.20.4-bb.1](https://img.shields.io/badge/Version-1.20.4--bb.1-informational?style=flat-square) ![AppVersion: 1.20.4](https://img.shields.io/badge/AppVersion-1.20.4-informational?style=flat-square)
 
 Helm chart for deploying Istio operator
 
@@ -63,6 +63,7 @@ helm install istio-operator chart/
 | monitoring.enabled | bool | `false` |  |
 | networkPolicies.enabled | bool | `false` |  |
 | networkPolicies.controlPlaneCidr | string | `"0.0.0.0/0"` |  |
+| networkPolicies.additionalPolicies | list | `[]` |  |
 
 ## Contributing
 
