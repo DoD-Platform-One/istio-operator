@@ -2,12 +2,16 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ---
+## [1.21.1-bb.0] - 2024-05-03
+### Changed
+- Updated repo1 image to `1.21.1`
+- Updated TID image to `1.21.1`
 
-## [1.20.4-bb.1] - 2024-4-16
+## [1.20.4-bb.1] - 2024-04-16
 ### Added
 - Added custom network policies
 
-## [1.20.4-bb.0] - 2024-3-25
+## [1.20.4-bb.0] - 2024-03-25
 ### Changed
 - Updated repo1 image to `1.20.4`
 - Updated TID image to `1.20.4`
@@ -16,21 +20,21 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### Added
 - Added Openshift updates for deploying istio-operator into Openshift cluster
 
-## [1.19.7-bb.1] - 2024-1-12
+## [1.19.7-bb.1] - 2024-01-12
 ### Added
 - fix: adds runAs user and group
 
-## [1.19.7-bb.0] - 2024-1-12
+## [1.19.7-bb.0] - 2024-01-12
 ### Added
 - Updated repo1 image to `1.19.7`
 - Updated TID image to `1.20.3`
 
-## [1.19.6-bb.0] - 2024-1-12
+## [1.19.6-bb.0] - 2024-01-12
 ### Added
 - Updated repo1 image to `1.19.6`
 - Updated TID image to `1.20.2`
 
-## [1.19.5-bb.1] - 2023-1-04
+## [1.19.5-bb.1] - 2023-01-04
 ### Added
 - Updated TID image to `1.19.5`
 
