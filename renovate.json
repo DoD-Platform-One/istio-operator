@@ -6,7 +6,6 @@
   "dependencyDashboardTitle": "Renovate: Upgrade Istio Operator Package Dependencies",
   "draftPR": true,
   "labels": ["istio","Big Bang Core","Package Sustainment","kind::maintenance"],
-  "commitMessagePrefix": "SKIP UPDATE CHECK",
   "packageRules": [
     {
       "matchDatasources": ["docker"],
