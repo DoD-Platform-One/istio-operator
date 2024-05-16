@@ -1,6 +1,6 @@
 # istio-operator
 
-![Version: 1.21.1-bb.0](https://img.shields.io/badge/Version-1.21.1--bb.0-informational?style=flat-square) ![AppVersion: 1.21.1](https://img.shields.io/badge/AppVersion-1.21.1-informational?style=flat-square)
+![Version: 1.21.2-bb.0](https://img.shields.io/badge/Version-1.21.2--bb.0-informational?style=flat-square) ![AppVersion: 1.21.2](https://img.shields.io/badge/AppVersion-1.21.2-informational?style=flat-square)
 
 Helm chart for deploying Istio operator
 
@@ -34,32 +34,33 @@ helm install istio-operator chart/
 
 | Key | Type | Default | Description |
 |-----|------|---------|-------------|
-| hub | string | `"registry1.dso.mil/ironbank/opensource/istio"` |  |
-| image | string | `"operator"` |  |
-| tag | string | `"1.21.2"` |  |
+| defaults.hub | string | `"registry1.dso.mil/ironbank/opensource/istio"` |  |
+| defaults.image | string | `"operator"` |  |
+| defaults.tag | string | `"1.21.2"` |  |
+| defaults.imagePullSecrets | list | `[]` |  |
+| defaults.imagePullPolicy | string | `""` |  |
+| defaults.watchedNamespaces | string | `"istio-system"` |  |
+| defaults.waitForResourcesTimeout | string | `"300s"` |  |
+| defaults.enableCRDTemplates | bool | `false` |  |
+| defaults.revision | string | `""` |  |
+| defaults.deploymentHistory | int | `10` |  |
+| defaults.operator.monitoring.host | string | `"0.0.0.0"` |  |
+| defaults.operator.monitoring.port | int | `8383` |  |
+| defaults.operator.resources.limits.cpu | string | `"200m"` |  |
+| defaults.operator.resources.limits.memory | string | `"256Mi"` |  |
+| defaults.operator.resources.requests.cpu | string | `"200m"` |  |
+| defaults.operator.resources.requests.memory | string | `"256Mi"` |  |
+| defaults.operator.seccompProfile | object | `{}` |  |
+| defaults.nodeSelector | object | `{}` |  |
+| defaults.tolerations | list | `[]` |  |
+| defaults.affinity | object | `{}` |  |
+| defaults.podLabels | object | `{}` |  |
+| defaults.podAnnotations | object | `{}` |  |
+| createNamespace | bool | `true` |  |
+| operatorNamespace | string | `"istio-operator"` |  |
 | enterprise | bool | `false` | Tetrate Istio Distribution - Tetrate provides FIPs verified Istio and Envoy software and support, validated through the FIPs Boring Crypto module. Find out more from Tetrate - https://www.tetrate.io/tetrate-istio-subscription |
 | tidHub | string | `"registry1.dso.mil/ironbank/tetrate/istio"` |  |
-| tidTag | string | `"1.21.1-tetratefips-v0"` |  |
-| imagePullSecrets | list | `[]` |  |
-| imagePullPolicy | string | `""` |  |
-| watchedNamespaces | string | `"istio-system"` |  |
-| waitForResourcesTimeout | string | `"300s"` |  |
-| enableCRDTemplates | bool | `false` |  |
-| revision | string | `""` |  |
-| deploymentHistory | int | `10` |  |
-| operator.monitoring.host | string | `"0.0.0.0"` |  |
-| operator.monitoring.port | int | `8383` |  |
-| operator.resources.limits.cpu | string | `"200m"` |  |
-| operator.resources.limits.memory | string | `"256Mi"` |  |
-| operator.resources.requests.cpu | string | `"200m"` |  |
-| operator.resources.requests.memory | string | `"256Mi"` |  |
-| operator.seccompProfile | object | `{}` |  |
-| nodeSelector | object | `{}` |  |
-| tolerations | list | `[]` |  |
-| affinity | object | `{}` |  |
-| podLabels | object | `{}` |  |
-| podAnnotations | object | `{}` |  |
-| createNamespace | bool | `true` |  |
+| tidTag | string | `"1.21.2-tetratefips-v0"` |  |
 | monitoring.enabled | bool | `false` |  |
 | networkPolicies.enabled | bool | `false` |  |
 | networkPolicies.controlPlaneCidr | string | `"0.0.0.0/0"` |  |

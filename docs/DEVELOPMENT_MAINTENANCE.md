@@ -15,3 +15,14 @@ Generally the operator should be tested alongside the new controlplane version. 
 Renovate may remove the two keys listed here. Make sure that they are present and that their values are set to 1337:
 - spec.template.spec.containers.securityContext.runAsGroup
 - spec.template.spec.containers.securityContext.runAsUser
+
+Added `.Values.enterprise` boolean gate to determine use of tetrate images. Make sure this is not removed and is updated if needed to reflect values changes.
+- spec.template.spec.containers[0].image
+
+## /chart/values.yaml
+Changes to default values:
+- defaults.operator.monitoring.host should be `0.0.0.0`
+- defaults.operator.monitoring.port should be `8383`
+- defaults.hub should be ironbank image path
+
+Added `## Big Bang Additions below this line ##` section at bottom of file

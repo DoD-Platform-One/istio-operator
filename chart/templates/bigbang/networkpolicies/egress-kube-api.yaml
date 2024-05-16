@@ -2,7 +2,7 @@
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
-  name: allow-egress-api-istio-operator{{- if not (eq .Values.revision "") }}-{{ .Values.revision }}{{- end }}
+  name: allow-egress-api-istio-operator{{- if not (eq .Values.defaults.revision "") }}-{{ .Values.defaults.revision }}{{- end }}
   namespace: {{.Values.operatorNamespace}}
 spec:
   podSelector: {}

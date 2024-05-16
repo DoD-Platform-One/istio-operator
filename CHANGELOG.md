@@ -2,6 +2,13 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ---
+## [1.21.2-bb.0] - 2024-05-16
+### Changed
+- Updated repo1 image to `1.21.2`
+- Updated TID image to `1.21.2`
+- Added default value for `operatorNamespace` so helm lint passes
+- Documented existing modifications to upstream chart in `docs/DEVELOPMENT_MAINTENANCE.md`
+
 ## [1.21.1-bb.0] - 2024-05-03
 ### Changed
 - Updated repo1 image to `1.21.1`
