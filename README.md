@@ -1,6 +1,6 @@
 # istio-operator
 
-![Version: 1.21.2-bb.0](https://img.shields.io/badge/Version-1.21.2--bb.0-informational?style=flat-square) ![AppVersion: 1.21.2](https://img.shields.io/badge/AppVersion-1.21.2-informational?style=flat-square)
+![Version: 1.22.1-bb.0](https://img.shields.io/badge/Version-1.22.1--bb.0-informational?style=flat-square) ![AppVersion: 1.22.1](https://img.shields.io/badge/AppVersion-1.22.1-informational?style=flat-square)
 
 Helm chart for deploying Istio operator
 
@@ -36,7 +36,7 @@ helm install istio-operator chart/
 |-----|------|---------|-------------|
 | defaults.hub | string | `"registry1.dso.mil/ironbank/opensource/istio"` |  |
 | defaults.image | string | `"operator"` |  |
-| defaults.tag | string | `"1.21.2"` |  |
+| defaults.tag | string | `"1.22.1"` |  |
 | defaults.imagePullSecrets | list | `[]` |  |
 | defaults.imagePullPolicy | string | `""` |  |
 | defaults.watchedNamespaces | string | `"istio-system"` |  |
@@ -60,7 +60,7 @@ helm install istio-operator chart/
 | operatorNamespace | string | `"istio-operator"` |  |
 | enterprise | bool | `false` | Tetrate Istio Distribution - Tetrate provides FIPs verified Istio and Envoy software and support, validated through the FIPs Boring Crypto module. Find out more from Tetrate - https://www.tetrate.io/tetrate-istio-subscription |
 | tidHub | string | `"registry1.dso.mil/ironbank/tetrate/istio"` |  |
-| tidTag | string | `"1.21.2-tetratefips-v0"` |  |
+| tidTag | string | `"1.22.1-tetratefips-v0"` |  |
 | monitoring.enabled | bool | `false` |  |
 | networkPolicies.enabled | bool | `false` |  |
 | networkPolicies.controlPlaneCidr | string | `"0.0.0.0/0"` |  |
