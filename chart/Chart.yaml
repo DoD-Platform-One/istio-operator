@@ -23,3 +23,5 @@ annotations:
     - name: tetrate-operator
       condition: enterprise
       image: registry1.dso.mil/ironbank/tetrate/istio/operator:1.22.3-tetratefips-v0
+  bigbang.dev/upstreamReleaseNotesMarkdown: |
+    - [Find upstream chart's release notes and CHANGELOG here](https://istio.io/latest/news/releases/)

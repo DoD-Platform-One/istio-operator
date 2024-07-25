@@ -1,3 +1,4 @@
+<!-- Warning: Do not manually edit this file. See notes on gluon + helm-docs at the end of this file for more information. -->
 # istio-operator
 
 ![Version: 1.22.3-bb.0](https://img.shields.io/badge/Version-1.22.3--bb.0-informational?style=flat-square) ![AppVersion: 1.22.3](https://img.shields.io/badge/AppVersion-1.22.3-informational?style=flat-square)
@@ -7,6 +8,10 @@ Helm chart for deploying Istio operator
 ## Upstream References
 
 * <https://github.com/istio/istio/tree/master/operator>
+
+### Upstream Release Notes
+
+* [Find upstream chart's release notes and CHANGELOG here](https://istio.io/latest/news/releases/)
 
 ## Learn More
 
@@ -71,3 +76,7 @@ helm install istio-operator chart/
 ## Contributing
 
 Please see the [contributing guide](./CONTRIBUTING.md) if you are interested in contributing.
+
+---
+
+_This file is programatically generated using `helm-docs` and some BigBang-specific templates. The `gluon` repository has [instructions for regenerating package READMEs](https://repo1.dso.mil/big-bang/product/packages/gluon/-/blob/master/docs/bb-package-readme.md)._
