@@ -1,7 +1,7 @@
 <!-- Warning: Do not manually edit this file. See notes on gluon + helm-docs at the end of this file for more information. -->
 # istio-operator
 
-![Version: 1.22.5-bb.0](https://img.shields.io/badge/Version-1.22.5--bb.0-informational?style=flat-square) ![AppVersion: 1.22.5](https://img.shields.io/badge/AppVersion-1.22.5-informational?style=flat-square)
+![Version: 1.23.2-bb.0](https://img.shields.io/badge/Version-1.23.2--bb.0-informational?style=flat-square) ![AppVersion: 1.23.2](https://img.shields.io/badge/AppVersion-1.23.2-informational?style=flat-square)
 
 Helm chart for deploying Istio operator
 
@@ -41,7 +41,7 @@ helm install istio-operator chart/
 |-----|------|---------|-------------|
 | defaults.hub | string | `"registry1.dso.mil/ironbank/opensource/istio"` |  |
 | defaults.image | string | `"operator"` |  |
-| defaults.tag | string | `"1.22.5"` |  |
+| defaults.tag | string | `"1.23.2"` |  |
 | defaults.imagePullSecrets | list | `[]` |  |
 | defaults.imagePullPolicy | string | `""` |  |
 | defaults.watchedNamespaces | string | `"istio-system"` |  |
