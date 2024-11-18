@@ -4,7 +4,7 @@ defaults:
   hub: registry1.dso.mil/ironbank/opensource/istio
   ## Added by Big Bang
   image: operator
-  tag: 1.23.2
+  tag: 1.23.3
 
   # ImagePullSecrets for operator ServiceAccount, list of secrets in the same namespace
   # used to pull operator image. Must be set for any cluster configured with private docker registry.
@@ -64,7 +64,7 @@ operatorNamespace: istio-operator  # needed for helm lint to pass with createNam
 # Find out more from Tetrate - https://www.tetrate.io/tetrate-istio-subscription
 enterprise: false
 tidHub: registry1.dso.mil/ironbank/tetrate/istio
-tidTag: 1.23.2-tetratefips-v0
+tidTag: 1.23.3-tetratefips-v0
 
 # Future: Toggles deployment of serviceMonitor + networkPolicy
 # Only toggles networkPolicy right now
