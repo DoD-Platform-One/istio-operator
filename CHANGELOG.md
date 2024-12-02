@@ -9,6 +9,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - Updated registry1.dso.mil/ironbank/opensource/istio/operator from 1.23.2 to 1.23.3
 - Updated registry1.dso.mil/ironbank/tetrate/istio/operator from 1.23.2-tetratefips-v0 to 1.23.3-tetratefips-v0
+- Added the maintenance track annotation and badge
 
 ## [1.23.2-bb.0] - 2024-10-08
 
