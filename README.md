@@ -1,13 +1,13 @@
 <!-- Warning: Do not manually edit this file. See notes on gluon + helm-docs at the end of this file for more information. -->
 # istio-operator
 
-![Version: 1.23.3-bb.0](https://img.shields.io/badge/Version-1.23.3--bb.0-informational?style=flat-square) ![AppVersion: 1.23.3](https://img.shields.io/badge/AppVersion-1.23.3-informational?style=flat-square) ![Maintenance Track: bb_integrated](https://img.shields.io/badge/Maintenance_Track-bb_integrated-green?style=flat-square)
+![Version: 1.23.4-bb.0](https://img.shields.io/badge/Version-1.23.4--bb.0-informational?style=flat-square) ![AppVersion: 1.23.4](https://img.shields.io/badge/AppVersion-1.23.4-informational?style=flat-square) ![Maintenance Track: bb_integrated](https://img.shields.io/badge/Maintenance_Track-bb_integrated-green?style=flat-square)
 
 Helm chart for deploying Istio operator
 
 ## Upstream References
 
-* <https://github.com/istio/istio/tree/master/operator>
+- <https://github.com/istio/istio/tree/master/operator>
 
 ## Upstream Release Notes
 
@@ -43,7 +43,7 @@ helm install istio-operator chart/
 |-----|------|---------|-------------|
 | defaults.hub | string | `"registry1.dso.mil/ironbank/opensource/istio"` |  |
 | defaults.image | string | `"operator"` |  |
-| defaults.tag | string | `"1.23.3"` |  |
+| defaults.tag | string | `"1.23.4"` |  |
 | defaults.imagePullSecrets | list | `[]` |  |
 | defaults.imagePullPolicy | string | `""` |  |
 | defaults.watchedNamespaces | string | `"istio-system"` |  |
@@ -67,7 +67,7 @@ helm install istio-operator chart/
 | operatorNamespace | string | `"istio-operator"` |  |
 | enterprise | bool | `false` | Tetrate Istio Distribution - Tetrate provides FIPs verified Istio and Envoy software and support, validated through the FIPs Boring Crypto module. Find out more from Tetrate - https://www.tetrate.io/tetrate-istio-subscription |
 | tidHub | string | `"registry1.dso.mil/ironbank/tetrate/istio"` |  |
-| tidTag | string | `"1.23.3-tetratefips-v0"` |  |
+| tidTag | string | `"1.23.4-tetratefips-v0"` |  |
 | monitoring.enabled | bool | `false` |  |
 | networkPolicies.enabled | bool | `false` |  |
 | networkPolicies.controlPlaneCidr | string | `"0.0.0.0/0"` |  |
