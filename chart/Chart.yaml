@@ -2,8 +2,8 @@ apiVersion: v2
 name: istio-operator
 # This version is never actually shipped. istio/release-builder will replace it at build-time
 # with the appropriate version
-version: 1.23.4-bb.0
-appVersion: 1.23.4
+version: 1.23.5-bb.0
+appVersion: 1.23.5
 tillerVersion: ">=2.7.2"
 description: Helm chart for deploying Istio operator
 keywords:
@@ -15,13 +15,13 @@ icon: https://istio.io/latest/favicons/android-192x192.png
 annotations:
   bigbang.dev/maintenanceTrack: bb_integrated
   bigbang.dev/applicationVersions: |
-    - Istio Operator: 1.23.4
-    - Tetrate Istio Distro Operator: 1.23.4
+    - Istio Operator: 1.23.5
+    - Tetrate Istio Distro Operator: 1.23.5
   helm.sh/images: |
     - name: operator
-      image: registry1.dso.mil/ironbank/opensource/istio/operator:1.23.4
+      image: registry1.dso.mil/ironbank/opensource/istio/operator:1.23.5
     - name: tetrate-operator
       condition: enterprise
-      image: registry1.dso.mil/ironbank/tetrate/istio/operator:1.23.4-tetratefips-v0
+      image: registry1.dso.mil/ironbank/tetrate/istio/operator:1.23.5-tetratefips-v0
   bigbang.dev/upstreamReleaseNotesMarkdown: |
     - [Find upstream chart's release notes and CHANGELOG here](https://istio.io/latest/news/releases/)
